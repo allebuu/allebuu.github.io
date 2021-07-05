@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineWeb</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut" src="#">
+</head>
+<body data-spy="scroll" data-target="#navbar1" >
+
+<!--barra de navegação-->
+    <nav id="navbar1" class="navbar navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">CineWeb</a>        
+        <ul class="nav nav-pills">
+            <li class="nav-item" >
+                <a class="nav-link" href="#home" >Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#premi">Premiações</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#filmes">Filmes</a>
+            </li>
+          
+        </ul>
+    </nav>
+
+<!-- paginas-->
+        <!--<div id="home" class="card">
+            <div class="card-body">
+              <p class="card-text"></p>
+            </div>
+          </div> -->
+    
+    <!--<div id="home"class="card bg-dark text-white" >
+        <img src="#" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <br><br>
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>              
+        </div>
+    </div> -->
+    <div id="home">
+        <br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h1 class="home-title">xxx um site sobre os clássicos do cinema!</h1>
+        <p class="home-text">Aproveite sua tarde de domingo com alguma de <a class="text-white" href="#filmes">nossas recomendações de filmes</a> que<br>
+                            trazemos para você! Descubra também os <a class="text-white" href="#premi">maiores ganhadores de oscars</a> e 
+                            <a href="#premi" class="text-white">famosos atores!</a></p> 
+        <br>                                   
+</div>
+
+    <!--cards atores-->
+    <section id="premi">
+        <br><br>
+        <div class="row">
+            <!-- Johnny Depp-->
+            <div class="col">
+                <div class="card">
+                    <img src="#" class="card-img-top" alt="...">
+                    <div class="card-body">                        
+                        <h5 class="card-title">Marlon Brando <br> (1924-2004)</h5>                        
+                        <p class="card-text">Foi um ator e diretor Norte Americano, um dos mais influentes do século 20. Seus filmes mais famosos são “O Poderoso Chefão” e “Último Tango em Paris”, ambos de 1972. Indicado ao Oscar oito vezes e vencedor de duas estatuetas, se recusou a receber o Oscar de melhor ator pelo "O Poderoso Chefão" e pediu para que Sacheen Littlefeather, uma ativista Apache, recebesse o prémio como forma de protesto de como Hollywood retratava os indígenas.</p>      
+
+                    </div>
+                </div>
+            </div>
+            
+            <!-- charles chaplin-->
+            <div class="col">
+                <div class="card">
+                    <img src="#" class="card-img-top" alt="..." >
+                    <div class="card-body">
+                        <h5 class="card-title">Charles Chaplin</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Meryl Streep-->
+            <div class="col">
+                <div class="card">
+                    <img src="#" class="card-img-top" alt="...">              
+                    <div class="card-body">
+                        <h5 class="card-title">Meryl Streep</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- João Antônio-->
+            <div class="col-sm-3"  >
+                <div class="card">
+                    <img src="" class="card-img-top" alt="..." >              
+                    <div class="card-body">
+                        <h5 class="card-title">João Antônio </h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+      
+    <!--slides pros filmes-->
+    <h4 id="filmes"></h4>
+    <br>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner" >
+            <div class="carousel-item active">
+                <img src="C:/js/eletivas/ELETIVADEINOVACAO/os%20caça-fantasmas2.png"  class="d-block w-100"   >
+            </div>
+            
+            <div class="carousel-item">
+                <img src="C:/js/eletivas/ELETIVADEINOVACAO/tudo%20por%20amor2.png"  class="d-block w-100"  >
+            </div>
+            
+            <div class="carousel-item">
+                <img src="C:/js/eletivas/ELETIVADEINOVACAO/sexta%20feira%20132.png"  class="d-block w-100"  >
+            </div>
+            
+            <div class="carousel-item">
+                <img src="C:/js/eletivas/ELETIVADEINOVACAO/de%20volta%20para%20o%20futuro2.png" class="d-block w-100"  >
+            </div>
+        </div>
+        
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <footer>
+        <p>vtnc</p>
+    </footer>
+</body>
+</html>
