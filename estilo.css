@@ -31,3 +31,11 @@ html{
            padding:0;
         }
     }
+
+    footer{
+        color: aliceblue;
+        text-align: center;
+        font-style: italic;
+    }
+
+    
