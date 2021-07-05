@@ -26,7 +26,8 @@ html{
     }
     
     @media screen and (max-width:600px){
-        .navbar1{
-            float:none;
+        section, .card{
+            width: 100%;
+           padding:0;
         }
     }
